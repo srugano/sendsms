@@ -1,0 +1,14 @@
+{% load url from future %}
+
+{% if user_list %}
+<h1>Hi guys!  </h1>
+    <ul>
+    {% for users in user_list %}
+        <li>
+			Thank you for joining us, <strong> {{ users.first_name }} </strong> , and you live in	<strong > {{ users.city }} </strong>
+		</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>There are no user. </p>
+{% endif %}
