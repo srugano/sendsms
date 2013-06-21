@@ -1,5 +1,8 @@
 from django.db import models
 import datetime
+
+
+
 now = datetime.datetime.now()
 
 # Create your models here.
@@ -31,9 +34,10 @@ class Responses(models.Model):
     response = models.CharField(max_length=300 )
     release_date = models.DateField(default=now)
     question = models.ForeignKey(Questions)
+    user = models.IntegerField(default=00000)
 
     def __unicode__(self):
-        return u'%s' % (self.response)
+        return u'%s %s' % (self.response, self.user)
 
     class Meta:
         ordering = ('release_date','question')
@@ -41,19 +45,20 @@ class Responses(models.Model):
 
 class States(models.Model):
     num_tel = models.IntegerField(default=000000)
-    n_messages = models.IntegerField(default=1)
-
+    status  = models.IntegerField(default=0)
+    question = models.CharField(max_length=300)
     def __unicode__(self):
-        return u'%s %s' % (self.num_tel, self.n_messages)
+        return u'%s' % (self.num_tel)
 
     class Meta:
         ordering = ('num_tel',)
         verbose_name_plural = "states"
 
-class Ordre(models.Model):
+"""class Ordre(models.Model):
     ordre = models.CharField(max_length=300, blank=True)
     num_poll = models.CharField(max_length=300, blank=True)
     def __unicode__(self):
         return u'%s %s' % (self.ordre, self.num_poll)
     class Meta:
         ordering = ('num_poll',)
+"""
