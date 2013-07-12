@@ -5,9 +5,9 @@ from sendsms.models import Questions, History
 
 class App(AppBase):
 	def handle(self, message):
-		tel=message.peer
-		msg=message.text.split(" ")
-		if msg[0]=='JO':
+		tel=message.connection.identity
+		msg=message.text.lower().split(" ")
+		if msg[0]=='joindre':
 			for q in Questions.objects.all():
 				h=History(question=q.question,tel_num=tel,status=0)
 				h.save()
