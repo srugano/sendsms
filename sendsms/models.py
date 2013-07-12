@@ -46,7 +46,7 @@ class Responses(models.Model):
 class States(models.Model):
     num_tel = models.IntegerField(default=000000)
     status  = models.IntegerField(default=0)
-    question = models.CharField(max_length=300)
+    question = models.ForeignKey(Questions)
     def __unicode__(self):
         return u'%s' % (self.num_tel)
 

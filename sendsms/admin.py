@@ -2,8 +2,7 @@
 # encoding=utf-8
 
 from django.contrib import admin
-from sendsms.models import User, Questions, Responses, States, #Ordre
-
+from sendsms.models import User, Questions, Responses, States
 class UserAdmin(admin.ModelAdmin):
     fields = ['first_name','telephone']
     list_display = ('first_name','telephone')
@@ -17,8 +16,8 @@ class ResponsesAdmin(admin.ModelAdmin):
 	list_display = ('response','question','release_date' )
 
 class StatesAdmin(admin.ModelAdmin):
-	fields = ['num_tel', 'n_messages',  ] 
-	list_display = ('num_tel','n_messages')
+	fields = ['num_tel' ] 
+	list_display = ('num_tel',)
 
 """class OrdreAdmin(admin.ModelAdmin):
 	fields = ['ordre', 'num_poll',  ] 
