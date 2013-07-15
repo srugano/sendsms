@@ -12123,3 +12123,799 @@ SyntaxError: invalid syntax
 2013-06-10 17:50:51,765 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
 2013-06-10 17:50:51,895 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
 2013-06-10 17:50:51,895 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 12:33:23,589 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 35
+    >>>>>>> 6973353f84d6d8c9c369d61ec66714fb478b4e90
+     ^
+SyntaxError: invalid syntax
+2013-07-15 12:33:23,692 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router INFO     Incoming (341853 via message_tester): join
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:23,694 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 12:33:23,849 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 12:33:23,849 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 12:33:23,850 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:23,850 rapidsms.contrib.handlers.app INFO     Incoming message handled by RegisterHandler
+2013-07-15 12:33:23,850 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 12:33:23,851 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 12:33:23,851 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 12:33:23,851 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 35
+    >>>>>>> 6973353f84d6d8c9c369d61ec66714fb478b4e90
+     ^
+SyntaxError: invalid syntax
+2013-07-15 12:33:23,853 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 12:33:23,853 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: To register, send JOIN <NAME>>
+2013-07-15 12:33:23,853 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 12:33:23,853 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 12:33:23,853 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 12:33:24,009 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 12:33:24,009 rapidsms.backends.database.outgoing INFO     Storing message: To register, send JOIN <NAME>
+2013-07-15 12:33:37,536 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 35
+    >>>>>>> 6973353f84d6d8c9c369d61ec66714fb478b4e90
+     ^
+SyntaxError: invalid syntax
+2013-07-15 12:33:37,538 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router INFO     Incoming (341853 via message_tester): joindre
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:37,539 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 12:33:37,668 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 12:33:37,668 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 12:33:37,668 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:37,668 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 12:33:37,668 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 12:33:37,669 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 35
+    >>>>>>> 6973353f84d6d8c9c369d61ec66714fb478b4e90
+     ^
+SyntaxError: invalid syntax
+2013-07-15 12:33:37,671 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 12:33:37,671 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 12:33:37,671 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 12:33:37,672 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 12:33:37,672 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 12:33:37,794 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 12:33:37,794 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 14:16:42,645 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 34
+    """The question(s) for registration are not available and the user must try again later to ask for registration """
+   ^
+IndentationError: expected an indented block
+2013-07-15 14:16:42,990 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router INFO     Incoming (852889 via message_tester): joindre
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:16:43,067 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:16:43,392 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:16:43,392 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:16:43,408 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:16:43,409 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:16:43,409 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:16:43,409 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:16:43,410 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:16:43,410 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:16:43,410 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:16:43,410 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 14:16:43,410 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:16:43,410 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:16:43,410 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:16:43,411 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 34
+    """The question(s) for registration are not available and the user must try again later to ask for registration """
+   ^
+IndentationError: expected an indented block
+2013-07-15 14:16:43,412 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:16:43,413 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 14:16:43,413 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:16:43,413 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:16:43,413 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:16:43,536 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:16:43,537 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 14:19:06,801 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 34
+    """The question(s) for registration are not available and the user must try again later to ask for registration """
+   ^
+IndentationError: expected an indented block
+2013-07-15 14:19:06,802 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router INFO     Incoming (852889 via message_tester): joindre
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:19:06,803 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:19:06,940 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:19:06,940 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:19:06,940 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:19:06,941 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:19:06,942 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 34
+    """The question(s) for registration are not available and the user must try again later to ask for registration """
+   ^
+IndentationError: expected an indented block
+2013-07-15 14:19:06,943 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:19:06,944 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 14:19:06,944 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:19:06,944 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:19:06,944 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:19:07,076 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:19:07,077 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 14:23:46,762 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 34
+    """The question(s) for registration are not available and the user must try again later to ask for registration """
+   ^
+IndentationError: expected an indented block
+2013-07-15 14:23:46,789 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router INFO     Incoming (167284 via message_tester): joindre
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:23:46,790 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:23:46,921 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:23:46,921 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:23:46,921 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:23:46,921 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:23:46,921 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:23:46,921 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:23:46,921 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:23:46,922 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:23:46,922 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:23:46,922 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 14:23:46,922 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:23:46,922 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:23:46,922 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:23:46,922 rapidsms.router.blocking.router ERROR    Failed to add app to router.
+Traceback (most recent call last):
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 37, in __init__
+    self.add_app(name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/router/blocking/router.py", line 56, in add_app
+    cls = AppBase.find(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/apps/base.py", line 22, in find
+    module = try_import(module_name)
+  File "/home/helpdeskadmin/.virtualenvs/rapidsms1/local/lib/python2.7/site-packages/rapidsms/utils/modules.py", line 57, in try_import
+    __import__(module_name)
+  File "/home/helpdeskadmin/amasms/sendsms/app.py", line 34
+    """The question(s) for registration are not available and the user must try again later to ask for registration """
+   ^
+IndentationError: expected an indented block
+2013-07-15 14:23:46,924 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:23:46,924 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 14:23:46,924 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:23:46,924 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:23:46,924 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:23:47,048 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:23:47,049 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 14:57:14,182 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router INFO     Incoming (167284 via message_tester): joindre
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:14,189 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:14,323 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:14,323 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:57:14,323 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:15,148 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:15,149 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:15,150 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:15,150 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: WELCOME TO RAPIDSMS!>
+2013-07-15 14:57:15,151 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:57:15,151 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:57:15,151 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:57:15,289 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:57:15,290 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:57:15,290 rapidsms.backends.database.outgoing INFO     Storing message: WELCOME TO RAPIDSMS!
+2013-07-15 14:57:15,425 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:15,426 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 14:57:15,426 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:57:15,426 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:57:15,426 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:57:15,543 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:57:15,543 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:57:15,543 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 14:57:32,360 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router INFO     Incoming (167284 via message_tester): bite
+
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:32,361 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:32,498 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:32,498 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:57:32,498 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:32,650 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 14:57:32,651 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:57:32,651 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 14:57:32,652 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:32,652 rapidsms.router.blocking.router INFO     Outgoing:  Bite ? 
+2013-07-15 14:57:32,653 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:57:32,653 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:57:32,653 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:57:32,768 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:57:32,768 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:57:32,768 rapidsms.backends.database.outgoing INFO     Storing message:  Bite ? 
+2013-07-15 14:57:45,543 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router INFO     Incoming (167284 via message_tester): je suis jeune
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:45,544 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:45,673 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:45,673 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:57:45,673 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:45,901 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 14:57:45,902 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:57:45,902 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 14:57:45,903 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:45,904 rapidsms.router.blocking.router INFO     Outgoing:  nisawa ? 
+2013-07-15 14:57:45,904 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:57:45,904 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:57:45,904 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:57:46,036 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:57:46,036 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:57:46,036 rapidsms.backends.database.outgoing INFO     Storing message:  nisawa ? 
+2013-07-15 14:57:51,460 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:51,460 rapidsms.router.blocking.router INFO     Incoming (167284 via message_tester): ego
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:51,461 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:51,606 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:51,606 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:57:51,606 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:51,850 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 14:57:51,850 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:57:51,850 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 14:57:51,851 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:51,852 rapidsms.router.blocking.router INFO     Outgoing:  Urakomeye ? 
+2013-07-15 14:57:51,852 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:57:51,852 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:57:51,852 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:57:52,002 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:57:52,002 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:57:52,002 rapidsms.backends.database.outgoing INFO     Storing message:  Urakomeye ? 
+2013-07-15 14:57:57,077 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router INFO     Incoming (167284 via message_tester): joindre
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:57,078 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:57:57,079 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:57:57,224 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:57:57,224 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:57:57,224 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:57:57,459 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 14:57:57,459 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:57:57,459 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 14:57:57,461 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:57:57,461 rapidsms.router.blocking.router INFO     Outgoing:  Ubahe ? 
+2013-07-15 14:57:57,461 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:57:57,461 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:57:57,461 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:57:57,595 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:57:57,595 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:57:57,595 rapidsms.backends.database.outgoing INFO     Storing message:  Ubahe ? 
+2013-07-15 14:58:13,178 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router INFO     Incoming (674782 via message_tester): joindre
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:58:13,179 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:58:13,180 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:58:13,180 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:58:13,338 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:58:13,338 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:58:13,338 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:58:14,129 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:58:14,130 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:58:14,131 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:58:14,132 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:58:14,133 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: WELCOME TO RAPIDSMS!>
+2013-07-15 14:58:14,133 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:58:14,133 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:58:14,133 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:58:14,271 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:58:14,271 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:58:14,271 rapidsms.backends.database.outgoing INFO     Storing message: WELCOME TO RAPIDSMS!
+2013-07-15 14:58:14,423 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:58:14,424 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 14:58:14,424 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:58:14,424 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:58:14,424 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:58:14,573 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:58:14,573 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:58:14,573 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 14:59:15,456 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:59:15,458 rapidsms.router.blocking.router INFO     Incoming (855949 via message_tester): joindre
+
+2013-07-15 14:59:15,458 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:59:15,458 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:15,458 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:59:15,458 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:59:15,458 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:59:15,458 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:59:15,459 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:15,459 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:59:15,459 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:59:15,634 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:59:15,634 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:59:15,634 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:15,635 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 14:59:15,635 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:59:15,635 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 14:59:15,637 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:59:15,637 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND JO !>
+2013-07-15 14:59:15,637 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:59:15,637 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:59:15,637 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:59:15,776 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:59:15,776 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:59:15,777 rapidsms.backends.database.outgoing INFO     Storing message: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND JO !
+2013-07-15 14:59:40,637 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router INFO     Incoming (855949 via message_tester): joindre
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:59:40,638 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:59:40,775 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:59:40,775 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 14:59:40,775 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:41,584 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:59:41,585 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 14:59:41,586 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 14:59:41,586 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 14:59:41,586 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 14:59:41,586 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 14:59:41,587 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:59:41,588 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: WELCOME TO RAPIDSMS!>
+2013-07-15 14:59:41,588 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:59:41,588 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:59:41,588 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:59:41,709 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:59:41,709 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:59:41,709 rapidsms.backends.database.outgoing INFO     Storing message: WELCOME TO RAPIDSMS!
+2013-07-15 14:59:41,845 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 14:59:41,845 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 14:59:41,845 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 14:59:41,845 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 14:59:41,845 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 14:59:41,977 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 14:59:41,977 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 14:59:41,978 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 15:18:28,700 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:18:28,719 rapidsms.router.blocking.router INFO     Incoming (855949 via message_tester): joindre
+2013-07-15 15:18:28,719 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:18:28,719 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:18:28,719 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:18:28,720 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:18:28,720 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:18:28,720 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:18:28,726 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:18:28,726 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:18:28,726 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:18:28,895 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:18:28,895 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:18:28,895 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:18:29,004 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 15:18:29,004 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:18:29,004 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 15:18:29,006 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:18:29,006 rapidsms.router.blocking.router INFO     Outgoing:  Bite ? 
+2013-07-15 15:18:29,006 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:18:29,006 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:18:29,006 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:18:29,130 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:18:29,130 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:18:29,130 rapidsms.backends.database.outgoing INFO     Storing message:  Bite ? 
+2013-07-15 15:18:45,838 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router INFO     Incoming (697486 via message_tester): bite ?
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:18:45,839 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:18:45,979 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:18:45,980 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:18:45,980 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:18:45,981 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 15:18:45,981 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:18:45,981 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 15:18:45,982 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:18:45,983 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND JO !>
+2013-07-15 15:18:45,983 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:18:45,983 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:18:45,983 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:18:46,122 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:18:46,122 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:18:46,122 rapidsms.backends.database.outgoing INFO     Storing message: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND JO !
+2013-07-15 15:19:50,573 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:19:50,574 rapidsms.router.blocking.router INFO     Incoming (697486 via message_tester): joindre
+2013-07-15 15:19:50,574 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:19:50,574 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:19:50,574 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:19:50,574 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:19:50,575 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:19:50,575 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:19:50,575 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:19:50,575 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:19:50,575 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:19:50,738 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:19:50,739 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:19:50,739 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:19:51,555 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:19:51,557 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:19:51,559 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:19:51,559 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: WELCOME TO RAPIDSMS!>
+2013-07-15 15:19:51,559 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:19:51,559 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:19:51,559 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:19:51,697 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:19:51,697 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:19:51,697 rapidsms.backends.database.outgoing INFO     Storing message: WELCOME TO RAPIDSMS!
+2013-07-15 15:19:51,833 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:19:51,833 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 15:19:51,833 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:19:51,833 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:19:51,833 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:19:51,974 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:19:51,974 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:19:51,974 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 15:33:13,565 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:33:13,566 rapidsms.router.blocking.router INFO     Incoming (842792 via message_tester): bite ?
+2013-07-15 15:33:13,566 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:33:13,566 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:13,566 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:13,566 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:13,567 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:13,567 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:33:13,567 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:13,567 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:13,567 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:13,744 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:13,745 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:33:13,745 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:13,746 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 15:33:13,746 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:33:13,746 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 15:33:13,748 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:33:13,748 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND <JOINDRE> !>
+2013-07-15 15:33:13,748 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:33:13,748 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:33:13,748 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:33:13,887 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:33:13,887 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:33:13,887 rapidsms.backends.database.outgoing INFO     Storing message: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND <JOINDRE> !
+2013-07-15 15:33:22,049 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:33:22,049 rapidsms.router.blocking.router INFO     Incoming (842792 via message_tester): joindre
+2013-07-15 15:33:22,049 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:33:22,049 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:22,049 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:22,049 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:22,050 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:22,050 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:33:22,050 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:22,050 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:22,050 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:22,186 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:22,186 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:33:22,186 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:22,978 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:22,979 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:22,979 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:22,979 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:33:22,979 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:22,979 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:22,980 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:22,980 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:22,980 rapidsms.router.blocking.router DEBUG    In cleanup phase
+2013-07-15 15:33:22,980 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:22,980 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:22,980 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:22,980 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:22,981 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:33:22,982 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: WELCOME TO RAPIDSMS!>
+2013-07-15 15:33:22,982 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:33:22,982 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:33:22,982 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:33:23,111 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:33:23,111 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:33:23,112 rapidsms.backends.database.outgoing INFO     Storing message: WELCOME TO RAPIDSMS!
+2013-07-15 15:33:23,239 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:33:23,239 rapidsms.router.blocking.router INFO     Outgoing: <ErrorMessage: "Sorry, RapidSMS could not understand your message.">
+2013-07-15 15:33:23,239 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:33:23,239 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:33:23,239 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:33:23,380 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:33:23,380 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:33:23,380 rapidsms.backends.database.outgoing INFO     Storing message: "Sorry, RapidSMS could not understand your message."
+2013-07-15 15:33:37,507 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router INFO     Incoming (842792 via message_tester): jewe
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:33:37,508 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:33:37,645 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:33:37,645 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:33:37,645 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:33:37,770 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 15:33:37,771 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:33:37,771 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 15:33:37,772 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:33:37,773 rapidsms.router.blocking.router INFO     Outgoing:  Bite ? 
+2013-07-15 15:33:37,773 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:33:37,773 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:33:37,773 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:33:37,933 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:33:37,933 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:33:37,933 rapidsms.backends.database.outgoing INFO     Storing message:  Bite ? 
+2013-07-15 15:42:21,799 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router INFO     Incoming (842792 via message_tester): joindre
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:42:21,800 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:42:21,993 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:42:21,993 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:42:21,993 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:22,237 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 15:42:22,237 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:42:22,237 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 15:42:22,238 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:42:22,239 rapidsms.router.blocking.router INFO     Outgoing:  nisawa ? 
+2013-07-15 15:42:22,239 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:42:22,239 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:42:22,239 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:42:22,387 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:42:22,388 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:42:22,388 rapidsms.backends.database.outgoing INFO     Storing message:  nisawa ? 
+2013-07-15 15:42:37,862 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:42:37,862 rapidsms.router.blocking.router INFO     Incoming (394767 via message_tester): bite ?
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:42:37,863 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:42:38,011 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:42:38,011 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:42:38,012 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:38,013 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 15:42:38,013 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:42:38,013 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 15:42:38,014 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:42:38,015 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND <JOINDRE> !>
+2013-07-15 15:42:38,015 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:42:38,015 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:42:38,015 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:42:38,171 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:42:38,171 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:42:38,171 rapidsms.backends.database.outgoing INFO     Storing message: SORY YOU ARE NOT REGISTERED! TO REGISTER YOURSELF SEND <JOINDRE> !
+2013-07-15 15:42:46,290 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:42:46,290 rapidsms.router.blocking.router INFO     Incoming (394767 via message_tester): joindre
+2013-07-15 15:42:46,290 rapidsms.router.blocking.router DEBUG    In filter phase
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In parse phase
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In <app: handlers> app
+2013-07-15 15:42:46,291 rapidsms.router.blocking.router DEBUG    In <app: messagelog> app
+2013-07-15 15:42:46,427 rapidsms.router.blocking.router DEBUG    In <app: default> app
+2013-07-15 15:42:46,427 rapidsms.router.blocking.router DEBUG    In handle phase
+2013-07-15 15:42:46,427 rapidsms.router.blocking.router DEBUG    In <app: sendsms> app
+2013-07-15 15:42:47,251 rapidsms.router.blocking.router DEBUG    Short-circuited
+2013-07-15 15:42:47,251 rapidsms.router.blocking.router DEBUG    In default phase
+2013-07-15 15:42:47,251 rapidsms.router.blocking.router DEBUG    Skipping phase
+2013-07-15 15:42:47,252 rapidsms.contrib.handlers.app INFO     Registered: LanguageHandler, RegisterHandler, EchoHandler, PingHandler
+2013-07-15 15:42:47,253 rapidsms.router.blocking.router INFO     Outgoing: <OutgoingMessage: WELCOME TO RAPIDSMS!>
+2013-07-15 15:42:47,253 rapidsms.router.blocking.router DEBUG    Out outgoing phase
+2013-07-15 15:42:47,253 rapidsms.router.blocking.router DEBUG    Out <app: default> app
+2013-07-15 15:42:47,253 rapidsms.router.blocking.router DEBUG    Out <app: messagelog> app
+2013-07-15 15:42:47,392 rapidsms.router.blocking.router DEBUG    Out <app: handlers> app
+2013-07-15 15:42:47,392 rapidsms.router.blocking.router DEBUG    Out <app: sendsms> app
+2013-07-15 15:42:47,392 rapidsms.backends.database.outgoing INFO     Storing message: WELCOME TO RAPIDSMS!
